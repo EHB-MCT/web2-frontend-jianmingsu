@@ -1,10 +1,10 @@
 const path = require ('path');
 
 module.exports = {
-    entry: './web2-frontend-jianmingsu/js/script.js' ,
+    entry: './src/index.js' ,
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'script.js',
+        filename: 'main.js',
     },
     mode: 'production'
 };
